@@ -70,8 +70,26 @@
     </LinearLayout>
 
 
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:orientation="horizontal">
 
+        <ImageButton
+            android:id="@+id/imageButtonPrev"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/arrow_left"
+            android:contentDescription="@string/prev_button"/>
 
+        <ImageButton
+            android:id="@+id/imageButtonNext"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/arrow_right" />
+    </LinearLayout>
 
     <Button
         android:id="@+id/next_button"
